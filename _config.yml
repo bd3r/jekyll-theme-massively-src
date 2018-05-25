@@ -1,7 +1,7 @@
 # Site
 title:              Bad3r Blog
-bio:                'Jekyll version of the Massively theme by HTML5UP'
-description:        "Jekyll version of the Massively theme by HTML5UP"
+bio:                '— A computing security enthusiast blog where I write about what I learn and what I find interesting'
+description:        "— A computing security enthusiast blog where I write about what I learn and what I find interesting"
 locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site

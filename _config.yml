@@ -13,7 +13,7 @@ defaults:
   values:
     permalink: "/blog/:title/"
     layout: post
-    author:
+    author: "Bad3r"
 
 # Jekyll
 permalink:          /blog/:title/
@@ -24,6 +24,7 @@ kramdown:
   footnote_nr:      1
   entity_output:    as_char
   toc_levels:       1..6
+  # Use Kramdown coderay for syntax highlighting.
   enable_coderay:   false
 mathjax:            true
 sass:
@@ -34,16 +35,18 @@ sass:
 disqus_shortname:   default
 
 # Social
-analytics-id:       "default"
-twitter:            default
-facebook:           default
-instagram:          default
-github:             default
+# to be updated and enabled after getting a domain
+#analytics-id:       "default"
+twitter:            bd3r_
+#facebook:           default
+#instagram:          default
+github:             bd3r
 
+# commented out, not needed.
 # personal
-location:           Los Angeles, CA
-phone:              310-318-5555
-email:              info@default.com
+#location:           Los Angeles, CA
+#phone:              310-318-5555
+#email:              info@default.com
 
 # Gems
 gems:

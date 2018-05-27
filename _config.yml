@@ -55,7 +55,8 @@ gems:
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
-
+  - rouge
+highlighter: rouge
 paginate: 6
 paginate_path: "/blog/page:num/"
 

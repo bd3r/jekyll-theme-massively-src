@@ -250,73 +250,73 @@ button:focus {
 
 
 /*IMAGES*/
-/*img {*/
-    /*width: 100%;*/
-/*}*/
+img {
+    width: 100%;
+}
 
-/*hr {*/
-    /*margin-top: 15px;*/
-    /*margin-bottom: 15px;*/
-/*}*/
+hr {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 
-/*.no-padding {*/
-    /*padding: 0;*/
-/*}*/
+.no-padding {
+    padding: 0;
+}
 
 /* LIST STYLE
 -------------------------------------------------- */
-/*ul, ol {*/
-    /*margin     : 0;*/
-    /*padding    : 0;*/
-    /*list-style : none*/
-/*}*/
+ul, ol {
+    margin     : 0;
+    padding    : 0;
+    list-style : none
+}
 
 
-/*ul.list-check {*/
-    /**/
-/*}*/
+ul.list-check {
 
-/*ul.list-check li{*/
-    /*position: relative;*/
-    /*font-size: 18px;*/
-    /*line-height: 32px;*/
-/*}*/
-/*ul.list-check li::before {*/
-    /*content: "\f00c";*/
-    /*font-family: fontawesome;*/
-    /*color: #68c3a3;*/
-    /*margin-right: 10px;*/
-/*}*/
+}
+
+ul.list-check li{
+    position: relative;
+    font-size: 18px;
+    line-height: 32px;
+}
+ul.list-check li::before {
+    content: "\f00c";
+    font-family: fontawesome;
+    color: #68c3a3;
+    margin-right: 10px;
+}
 
 
-/*!* === MAIN === *!*/
-/*.section-padding {*/
-	/*padding: 120px 0 100px;*/
-/*}*/
+/* === MAIN === */
+.section-padding {
+	padding: 120px 0 100px;
+}
 
 
 /* SECTION TITLE
 ----------------------------------------------------- */
-.section-title {
-    margin-bottom: 80px;
-    text-align: center;
-    font-size: 50px;
-    line-height: 50px;
-    color: #2c3e50;
-    position: relative;
-}
+/*.section-title {*/
+    /*margin-bottom: 80px;*/
+    /*text-align: center;*/
+    /*font-size: 50px;*/
+    /*line-height: 50px;*/
+    /*color: #2c3e50;*/
+    /*position: relative;*/
+/*}*/
 
-.section-title::after {
-    content: "";
-    background: url(../../assets/images/section-divider.png) no-repeat 0 0;
-    height: 15px;
-    width: 113px;
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: -40px;
-    margin: 0 auto;
-}
+/*.section-title::after {*/
+    /*content: "";*/
+    /*background: url(../../assets/images/section-divider.png) no-repeat 0 0;*/
+    /*height: 15px;*/
+    /*width: 113px;*/
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*right: 0;*/
+    /*bottom: -40px;*/
+    /*margin: 0 auto;*/
+/*}*/
 
 
 

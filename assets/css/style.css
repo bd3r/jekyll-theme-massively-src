@@ -70,14 +70,14 @@ a:hover {
 
 /* Transition elsements
 -------------------------------------------------------- */
-/*.navbar a,*/
-/*.form-control {*/
-	/*-webkit-transition: all 0.4s ease-in-out 0s;*/
-	   /*-moz-transition: all 0.4s ease-in-out 0s;*/
-		/*-ms-transition: all 0.4s ease-in-out 0s;*/
-		 /*-o-transition: all 0.4s ease-in-out 0s;*/
-			/*transition: all 0.4s ease-in-out 0s;*/
-/*}*/
+.navbar a,
+.form-control {
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	   -moz-transition: all 0.4s ease-in-out 0s;
+		-ms-transition: all 0.4s ease-in-out 0s;
+		 -o-transition: all 0.4s ease-in-out 0s;
+			transition: all 0.4s ease-in-out 0s;
+}
 
 a,
 .btn {
@@ -1188,6 +1188,8 @@ Resume Timeline
     /*-o-transform: translate(0,-50px);*/
     /*transform: translate(0,-50px);*/
 /*}*/
+/*-----------------------------------------------------------------------------*/
+
 
 .links a i{
     position: relative;
@@ -1229,7 +1231,6 @@ Resume Timeline
     width: 100%;
     text-align: center;
 }
-/*-----------------------------------------------------------------------------*/
 
 .portfolio:hover .tt-overlay,
 .portfolio:hover .links {

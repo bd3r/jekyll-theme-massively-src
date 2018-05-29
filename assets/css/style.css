@@ -30,10 +30,10 @@
 
 
 body{
-    /*font-family: 'Roboto', sans-serif;*/
-    /*line-height: 28px;*/
-    /*font-weight: 300;*/
-    /*font-size: 14px;*/
+    font-family: 'Roboto', sans-serif;
+    line-height: 28px;
+    font-weight: 300;
+    font-size: 14px;
     color:#282828;
     background-color: #fff;
     /*-webkit-text-size-adjust: 100%;*/
@@ -41,9 +41,9 @@ body{
     -webkit-font-smoothing: antialiased !important;
 }
 
-/*body, html{*/
-    /*overflow-x:hidden;*/
-/*}*/
+body, html{
+    overflow-x:hidden;
+}
 
 /* Link style
 ---------------------------------------------------------*/

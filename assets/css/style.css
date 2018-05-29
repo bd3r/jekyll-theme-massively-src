@@ -29,21 +29,21 @@
 */
 
 
-body{
-    font-family: 'Roboto', sans-serif;
-    line-height: 28px;
-    font-weight: 300;
-    font-size: 14px;
-    color:#282828;
-    background-color: #fff;
-    -webkit-text-size-adjust: 100%;
-    -webkit-overflow-scrolling: touch;
-    -webkit-font-smoothing: antialiased !important;
-}
+/*body{*/
+    /*font-family: 'Roboto', sans-serif;*/
+    /*line-height: 28px;*/
+    /*font-weight: 300;*/
+    /*font-size: 14px;*/
+    /*color:#282828;*/
+    /*background-color: #fff;*/
+    /*-webkit-text-size-adjust: 100%;*/
+    /*-webkit-overflow-scrolling: touch;*/
+    /*-webkit-font-smoothing: antialiased !important;*/
+/*}*/
 
-body, html{
-    overflow-x:hidden;
-}
+/*body, html{*/
+    /*overflow-x:hidden;*/
+/*}*/
 
 /* Link style
 ---------------------------------------------------------*/
@@ -423,11 +423,11 @@ SOCIAL ICON
             transition: all 300ms;            
 }
 
-.social-icons a i:hover::after{
-    background: #68c3a3;
-    border: 1px solid transparent;
-    z-index: 0;
-}
+/*.social-icons a i:hover::after{*/
+    /*background: #68c3a3;*/
+    /*border: 1px solid transparent;*/
+    /*z-index: 0;*/
+/*}*/
 
 
 

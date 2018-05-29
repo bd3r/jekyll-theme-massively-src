@@ -1173,21 +1173,21 @@ Resume Timeline
 /*-----------------------------------------------------------------------------*/
 
 
-/*.links {*/
-    /*width: 90px;*/
-    /*height: 40px;*/
-    /*position: absolute;*/
-    /*top: 40%;*/
-    /*left: 50%;*/
-    /*margin-top: -20px;*/
-    /*margin-left: -45px;*/
-    /*opacity: 0;*/
-    /*-webkit-transform: translate(0,-50px);*/
-    /*-moz-transform: translate(0,-50px);*/
-    /*-ms-transform: translate(0,-50px);*/
-    /*-o-transform: translate(0,-50px);*/
-    /*transform: translate(0,-50px);*/
-/*}*/
+.links {
+    width: 90px;
+    height: 40px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-top: -20px;
+    margin-left: -45px;
+    opacity: 0;
+    -webkit-transform: translate(0,-50px);
+    -moz-transform: translate(0,-50px);
+    -ms-transform: translate(0,-50px);
+    -o-transform: translate(0,-50px);
+    transform: translate(0,-50px);
+}
 /*-----------------------------------------------------------------------------*/
 
 

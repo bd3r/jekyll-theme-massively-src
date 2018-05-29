@@ -392,18 +392,18 @@
 
 
 /*!* Large devices (large desktops, 1200px and up) *!*/
-/*@media (min-width : 1200px) and (max-width : 1279px) {*/
+@media (min-width : 1200px) and (max-width : 1279px) {
 
-/*}*/
+}
 
-/*!* Large devices (large desktops, 1280px and up) *!*/
-/*@media screen and (min-width:1280px) and (max-width:1599px) {*/
-	/**/
-/*}*/
+/* Large devices (large desktops, 1280px and up) */
+@media screen and (min-width:1280px) and (max-width:1599px) {
 
-/*!* Extra Large devices (large desktops, 1600px and up) *!*/
-/*@media screen and (min-width:1600px) and (max-width:1920px) {*/
-	/*.personal-info{*/
-		/*padding-right:180px;*/
-	/*}*/
+}
+
+/* Extra Large devices (large desktops, 1600px and up) */
+@media screen and (min-width:1600px) and (max-width:1920px) {
+	.personal-info{
+		padding-right:180px;
+	}
 }

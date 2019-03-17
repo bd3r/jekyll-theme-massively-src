@@ -1,10 +1,13 @@
 # Site
-title:              Bad3r
+title:              '>_ Bad3r'
 bio:                '— A computing security enthusiast blog where I write about what I learn and what I find interesting'
 description:        "— A computing security enthusiast blog where I write about what I learn and what I find interesting"
 locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://nifty-minsky-8f0c8b.netlify.com/" # the base hostname & protocol for your site
+# temporary url
+url: "https://bad3r.xyz" # the base hostname & protocol for your site
+#url: "https://bd3r.github.io/Bad3r-blog" # the base hostname & protocol for your site
+#url: "https://nifty-minsky-8f0c8b.netlify.com/" # the base hostname & protocol for your site
 
 defaults:
 - scope:
@@ -32,7 +35,7 @@ sass:
   style:            compressed
 
 # Comments
-disqus_shortname:   default
+disqus_shortname:   bad3r
 
 # Social
 # to be updated and enabled after getting a domain
@@ -48,20 +51,43 @@ github:             bd3r
 #phone:              310-318-5555
 #email:              info@default.com
 
-# Gems
-gems:
+# Gems/plugins
+plugins:
   - jekyll-mentions
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
-  - rouge
 
 paginate: 6
 paginate_path: "/blog/page:num/"
 
 jekyll-mentions:
-    base_url: https://github.com
+    base_url: https://bad3r.xyz
+
+
+# Settings for builing master branch with travis-ci
+# with jekyll-travis
+
+# Settings for deploy rake task
+# Username and repo of Github repo, e.g.
+# https://github.com/USERNAME/REPO.git
+# username defaults to ENV['GIT_NAME'] used by Travis
+# repo defaults to USERNAME.github.io
+# Branch defaults to "source" for USERNAME.github.io
+# or "master" otherwise
+safe: False
+lsi: False
+username: bd3r
+repo: bad3r-blog
+branch: master
+relative_source: ../bad3r-blog/
+destination: ./gh-pages/
+production_url:  https://bd3r.github.io/bad3r-blog/
+source_url:  https://github.com/bd3r/bad3r-blog/
+
 
 # Exclude list
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile, old]
+
+

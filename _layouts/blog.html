@@ -1,20 +1,5 @@
----
-layout: null
-title: '>_ Bad3r'
-description: Every great website starts with a great homepage. The homepage tells your viewers what your site is all about and gives your viewers a place to come back to.
-sitemap:
-priority: 1.0
-lastmod: 2017-11-02
-changefreq: weekly
----
 <!DOCTYPE HTML>
-<!--
-	theme:
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-  Jekyll integration by somiibo.com
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
 	<head>
     {% include head.html %}
@@ -47,19 +32,16 @@ changefreq: weekly
 				<!-- Main -->
 				<div id="main">
 
-          <article class="post featured">
-            <header class="major">
-              <h2><a href="#">About this Blog</a></h2>
-              <p>
-				  <span class="image left"><img src="{{ "/images/about_top.jpg" | absolute_url }}" alt="" /></span>
+					<header class="major">
+						<h2><a href="#">About this Blog</a></h2>
+						<p>
+							<span class="image left"><img src="{{ "/images/about_top.jpg" | absolute_url }}" alt="" /></span>
+							<br><br>
+							The goal of this blog is to keep track of resources I use to learn from as well as a personal reference for future me. As well as to force me to actively think about the various concepts I learn and information I gather.
 
-				  <br><br>
-				  The goal of this blog is to keep track of resources I use to learn from as well as a personal reference for future me. As well as to force me to actively think about the various concepts I learn and information I gather.
-
-				  also I hope it might help others at some point, like many other blogs and sites that I read to get a starting point on various subjects that relate to computer science and security.
-			  </p>
-            </header>
-
+							also I hope it might help others at some point, like many other blogs and sites that I read to get a starting point on various subjects that relate to computer science and security.
+						</p>
+					</header>
 
           </article>
 					<!-- Post -->
@@ -74,17 +56,9 @@ changefreq: weekly
 								<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
 								<p>{{ post.excerpt }}</p>
 								<ul class="actions">
-									<li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
+									<li><a href="{{ post.url | absolute_url }}" class="button">Read Post</a></li>
 								</ul>
 							</article>
-							{% if mod3 == 0 %}
-							<article>
-								<header>
-									<h2><a href="#">Sponsored</a></h2>
-								</header>
-
-							</article>
-							{% endif %}
 						{% endfor %}
 
 					</section>
@@ -93,6 +67,7 @@ changefreq: weekly
 
 				<!-- Footer -->
         {% include foot.html %}
+
 
 			</div>
 
